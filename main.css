@@ -1,0 +1,213 @@
+*   {
+    background-color: #1A1A1A;
+    font-family: 'Lato', Arial, sans-serif;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+body {
+    text-align: center;
+}
+
+.container  {
+    margin: 0 5%;
+}
+
+h1  {
+    text-align: center;
+    padding: 2em;
+    font-size: 3em;
+    font-weight: 800;
+    background-image: url(maxresdefault.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-shadow: 2px 2px 40px #000000;
+}
+
+h2  {
+    margin: 40px;
+}
+
+h3  {
+    margin: 50px;
+}
+
+p   {
+    margin: 40px;   
+}
+
+.spacer {
+    padding: 20px;   
+}
+
+#listspacing {
+    margin-top:40px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.pfix    {
+    margin: 0px;   
+}
+
+#divstruc   {
+    font-size: 35px;
+}
+
+/* Nav Bar */
+
+nav  {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a   {
+    text-decoration: none;
+    width: 20%;
+    border: solid 1px #F2F2F2;
+    margin: 1.5px;
+    background-color: #2B2B2B;
+}
+
+.navbar {
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    padding: 15px;
+    background-color: #2B2B2B;
+    font-size: 15px;
+}
+
+.navbar:hover   {
+    background-color: #3B3B3B;
+    font-weight: bold;
+    border: solid 1.5px #F2F2F2;
+}
+
+
+#currentpage    {
+    background-color: #3B3B3B;
+    font-weight: bold;
+    border: 1.5px solid #F2F2F2;
+}
+
+/* Dropdown menu on nav bar */
+
+.dropdown   {
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    background-color: #2B2B2B;
+    font-size: 15px;
+    text-decoration: none;
+    width: 20%;
+    border: solid 1px #F2F2F2;
+    margin: 1.5px;
+    background-color: #2B2B2B;
+    
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.content   {
+    display: none;
+    position: absolute;
+    background-color: #F2F2F2;
+    width: 100%;
+}
+
+.content a  {
+    color: black;
+    padding: 15px 15px;
+    text-decoration: none;
+    margin: 0px;
+}
+
+.dropbtn    {
+    background-color: #2B2B2B;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.content a {
+    color: black;
+    padding: 13px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #2B2B2B;
+    color: #F1F1F1;
+    width: auto;
+}
+
+.content a:hover {
+    background-color: #3B3B3B;
+    font-weight: bold;
+    border: solid 1.5px #F2F2F2;
+}
+
+.dropdown:hover .content   {
+    display: block;
+}
+
+.dropdown:hover .dropbtn    {
+    background-color: #3B3B3B;
+    font-weight: bold;
+    border: solid 1.5px #F2F2F2;
+}
+
+
+/* Button animation */
+.button {
+    margin: 5px;
+}
+
+.button a   {
+    display: block;
+    padding: 10px;
+    width: 5em;
+    background-color: #2B2B2B;
+    border: 1px solid #F2F2F2;
+}
+
+.buttonmove   {
+    margin: auto;
+}
+
+.button a:hover   {
+    background-color: #3B3B3B;
+    font-weight: bold;
+    border: solid 1.5px #F2F2F2;
+}
+
+.button a:active  {
+    transform: translateY(2px);
+}
+
+.map    {
+    margin: 30px;
+}
+
+.divbuttons {
+    display: inline-block;
+}
+
+
+#button1, #button2    {
+    display: inline-block;
+}
+
+
+/* Divisional structure resize img */
+
+#divimg img {
+    width: 55%;
+}
+    
