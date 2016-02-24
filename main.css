@@ -23,6 +23,7 @@ h1  {
     background-repeat: no-repeat;
     background-size: 100%;
     text-shadow: 2px 2px 40px #000000;
+    margin-bottom: 10px;
 }
 
 h2  {
@@ -61,37 +62,47 @@ nav  {
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: space-around;
 }
 
 nav a   {
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    background-color: #2B2B2B;
+    font-size: 15px;
     text-decoration: none;
     width: 20%;
     border: solid 1px #F2F2F2;
     margin: 1.5px;
     background-color: #2B2B2B;
+    
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .navbar {
-    text-align: center;
-    margin: auto;
-    vertical-align: middle;
-    padding: 15px;
     background-color: #2B2B2B;
+    color: white;
+    padding: 15px;
     font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border: solid 1px #F2F2F2;
 }
 
 .navbar:hover   {
-    background-color: #3B3B3B;
+    background-color: #06456B;
     font-weight: bold;
-    border: solid 1.5px #F2F2F2;
 }
 
 
 #currentpage    {
-    background-color: #3B3B3B;
-    font-weight: bold;
-    border: 1.5px solid #F2F2F2;
+    background-color: #06456B;
+}
+
+#joingbpf   {
+    background-color: #912F3A;
 }
 
 /* Dropdown menu on nav bar */
@@ -119,10 +130,11 @@ nav a   {
     position: absolute;
     background-color: #F2F2F2;
     width: 100%;
+    min-width: 100px;
+    z-index: 1;
 }
 
 .content a  {
-    color: black;
     padding: 15px 15px;
     text-decoration: none;
     margin: 0px;
@@ -148,9 +160,8 @@ nav a   {
 }
 
 .content a:hover {
-    background-color: #3B3B3B;
+    background-color: #06456B;
     font-weight: bold;
-    border: solid 1.5px #F2F2F2;
 }
 
 .dropdown:hover .content   {
@@ -158,13 +169,13 @@ nav a   {
 }
 
 .dropdown:hover .dropbtn    {
-    background-color: #3B3B3B;
+    background-color: #06456B;
     font-weight: bold;
-    border: solid 1.5px #F2F2F2;
 }
 
 
 /* Button animation */
+
 .button {
     margin: 5px;
 }
@@ -182,9 +193,8 @@ nav a   {
 }
 
 .button a:hover   {
-    background-color: #3B3B3B;
+    background-color: #06456B;
     font-weight: bold;
-    border: solid 1.5px #F2F2F2;
 }
 
 .button a:active  {
