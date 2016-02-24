@@ -52,6 +52,7 @@ p   {
     margin: 0px;   
 }
 
+
 #divstruc   {
     font-size: 35px;
 }
@@ -221,11 +222,6 @@ nav a   {
     width: 55%;
 }
 
-/*Under Contruction Page*/
-
-#underconstruction   {
-    font-size: 100px;   
-}
 
 /*Calendar responsive*/
 
@@ -245,4 +241,51 @@ nav a   {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/*Logos on home page*/
+
+.logo   {
+    display: inline-block;
+}
+
+#logo1, #logo2  {
+    display: inline-block;
+}
+
+#logo1   {
+    margin-right: 40px;
+}
+
+#logo2  {
+
+    margin-left: 40px;
+} 
+   
+.logo div img  {
+    width: 400px;
+    height: 170px;
+}
+
+
+
+/*Under Contruction Page*/
+
+#underconstruction   {
+    font-size: 100px;   
+}
+
+/*Footer*/
+
+footer  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.floatleft  {
+    text-align: left;
+}
+
+footer img  {
+    width: 4%;
 }
