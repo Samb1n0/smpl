@@ -1,7 +1,7 @@
 *   {
     background-color: #1A1A1A;
     font-family: 'Roboto', Arial, sans-serif;
-    color: #F2F2F2;
+    color: #FFF9E8;
     text-decoration: none;
 }
 
@@ -13,7 +13,7 @@ body {
     margin: 0 5%;
 }
 
-h1  {
+.headingpic  {
     text-align: center;
     padding: 2em;
     font-size: 3em;
@@ -22,7 +22,7 @@ h1  {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    text-shadow: 2px 2px 40px #000000;
+    text-shadow: 2px 2px 40px #000;
     margin-bottom: 10px;
 }
 
@@ -72,7 +72,7 @@ nav a   {
     font-size: 15px;
     text-decoration: none;
     width: 20%;
-    border: solid 1px #F2F2F2;
+    border: solid 1px #FFF9E8;
     margin: 1.5px;
     background-color: #2B2B2B;
     
@@ -88,7 +88,7 @@ nav a   {
     font-size: 15px;
     border: none;
     cursor: pointer;
-    border: solid 1px #F2F2F2;
+    border: solid 1px #FFF9E8;
 }
 
 .navbar:hover   {
@@ -115,7 +115,7 @@ nav a   {
     font-size: 15px;
     text-decoration: none;
     width: 20%;
-    border: solid 1px #F2F2F2;
+    border: solid 1px #FFF9E8;
     margin: 1.5px;
     background-color: #2B2B2B;
     
@@ -128,7 +128,7 @@ nav a   {
 .content   {
     display: none;
     position: absolute;
-    background-color: #F2F2F2;
+    background-color: #FFF9E8;
     width: 100%;
     min-width: 100px;
     z-index: 1;
@@ -155,7 +155,7 @@ nav a   {
     text-decoration: none;
     display: block;
     background-color: #2B2B2B;
-    color: #F1F1F1;
+    color: #FFF9E8;
     width: auto;
 }
 
@@ -219,5 +219,11 @@ nav a   {
 
 #divimg img {
     width: 55%;
+}
+
+/*Under Contruction Page*/
+
+#underconstruction   {
+    font-size: 100px;   
 }
     
