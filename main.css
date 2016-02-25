@@ -141,13 +141,18 @@ nav a   {
     margin: 0px;
 }
 
-.dropbtn    {
+.dropbtn   {
+    display: inline-block;
     background-color: #2B2B2B;
     color: white;
     padding: 15px;
     font-size: 15px;
     border: none;
     cursor: pointer;
+}
+
+.dropdown:hover {
+      background-color: #06456B;  
 }
 
 .content a {
@@ -174,6 +179,9 @@ nav a   {
     font-weight: bold;
 }
 
+.dropdown:hover {
+      background-color: #06456B;  
+}
 
 .content a:active {
     background-color: #06456B;
@@ -187,6 +195,10 @@ nav a   {
 .dropdown:active .dropbtn    {
     background-color: #06456B;
     font-weight: bold;
+}
+
+.dropdown:hover {
+      background-color: #06456B;  
 }
 
 .content a:focus {
