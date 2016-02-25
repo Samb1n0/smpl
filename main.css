@@ -174,10 +174,6 @@ nav a   {
     font-weight: bold;
 }
 
-.dropdown:active .dropbtn    {
-    background-color: #06456B;
-    font-weight: bold;
-}
 
 .content a:active {
     background-color: #06456B;
@@ -186,6 +182,25 @@ nav a   {
 
 .dropdown:active .content   {
     display: block;
+}
+
+.dropdown:active .dropbtn    {
+    background-color: #06456B;
+    font-weight: bold;
+}
+
+.content a:focus {
+    background-color: #06456B;
+    font-weight: bold;
+}
+
+.dropdown:focus .content   {
+    display: block;
+}
+
+.dropdown:focus .dropbtn    {
+    background-color: #06456B;
+    font-weight: bold;
 }
 
 
