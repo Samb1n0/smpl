@@ -290,30 +290,23 @@ nav a   {
     display: inline-block;
 }
 
-#logo1, #logo2  {
-    display: inline-block;
-}
-
 #logo1   {
-    margin-right: 40px;
+    margin-right: 0px;
 }
 
 #logo2  {
-
-    margin-left: 40px;
-} 
+    margin-left: 0px;
+}
    
-.logo div img  {
+.logo a img {
     width: 400px;
     height: 170px;
-    max-width: 100%;
 }
 
 img {
     max-width: 100%;
     height: auto;
 }
-
 
 /*Under Contruction Page*/
 
