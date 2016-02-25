@@ -174,6 +174,20 @@ nav a   {
     font-weight: bold;
 }
 
+.dropdown:active .dropbtn    {
+    background-color: #06456B;
+    font-weight: bold;
+}
+
+.content a:active {
+    background-color: #06456B;
+    font-weight: bold;
+}
+
+.dropdown:active .content   {
+    display: block;
+}
+
 
 /* Button animation */
 
