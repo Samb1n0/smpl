@@ -292,10 +292,12 @@ nav a   {
 
 #logo1   {
     margin-right: 0px;
+    max-width: 100%;
 }
 
 #logo2  {
     margin-left: 0px;
+    max-width: 100%;
 }
    
 .logo a img {
