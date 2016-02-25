@@ -265,8 +265,13 @@ nav a   {
 .logo div img  {
     width: 400px;
     height: 170px;
+    max-width: 100%;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 
 /*Under Contruction Page*/
