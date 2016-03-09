@@ -1,8 +1,19 @@
-var main = function () {
-    $('.dropdown-toggle').click(function () {
-        $('.dropdown-menu').toggle();
-    });
-};
 
+$(document).ready(function(){
 
-$(document).ready(main);
+$("#showperfrules").click(function(){
+    $("#perfrules").toggleClass("hidden");
+});
+$("#showequiprules").click(function(){
+    $("#equiprules").toggleClass("hidden");
+});
+$("#showagerules").click(function(){
+    $("#agerules").toggleClass("hidden");
+});
+$("#showbodyweightrules").click(function(){
+    $("#bodyweightrules").toggleClass("hidden");
+});
+$("#showweighingrules").click(function(){
+    $("#weighingrules").toggleClass("hidden");
+});
+});
