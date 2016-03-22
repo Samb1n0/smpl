@@ -345,3 +345,9 @@ footer img  {
 .hidden {
     display: none;
 }
+
+
+.recordsdoc {
+    margin: auto;
+    width:82%;
+}
